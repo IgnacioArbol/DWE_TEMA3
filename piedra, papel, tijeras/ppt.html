@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="ppt.js"></script>
+        <style>
+            body {
+                background-color: salmon;
+            }
+            svg{
+                background-color: rgb(128, 128, 128);
+                margin-top: 20px;
+                margin-left:30px;
+                ;
+            }
+            .button1{
+                color: grey;
+                text-align: center;
+                margin-top: 100px;
+                margin-left: 50px;
+                padding: 14px 40px;
+                }
+            .button2{
+                color: grey;
+                text-align: center;
+                margin-top: 100px;
+                margin-left: 50px;
+                padding: 14px 40px;
+            }
+            .button3{
+                color: grey;
+                text-align: center;
+                margin-top: 100px;
+                margin-left: 50px;
+                padding: 14px 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+
+        <svg height="300" width="600">
+            <text id="texto1" x="50" y="100" fill="red" font-size="2em" >Elige una opción de las de abajo</text>
+            <text id="texto4" x="250" y="100" fill="red"font-size="2em"></text>
+            <text id="texto2" x="450" y="100" fill="red"font-size="2em"></text>
+        </svg>
+        <svg id="ganador" width="600">
+            <text id="texto3"  x="50" y="100" fill="orange" font-size="4em" >Buena Suerte :D</text>
+        </svg>
+        </div>
+        <button class="button button1" onclick="j1.seleccionarPi()">Piedra</button>
+        <button class="button button2" onclick="j1.seleccionarPa()">Papel</button>
+        <button class="button button3" onclick="j1.seleccionarT()">Tijeras</button>
+        
+    </body>
+</html>
